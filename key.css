@@ -33,14 +33,14 @@ header {
 
 .ntr_left_2 img{
     position: absolute;
-    left: 800px;
+    left: 1200px;
     top: 100px;
     z-index: -1;
 }
 .jan img{
    
     position: relative;
-    left: 800px;
+    left: 1200px;
     top: 250px;
 
     
@@ -52,7 +52,7 @@ header {
     width: 200px;
     margin-top: 100px;
     text-align: center;
-    margin-left: 400px;
+    margin-left: 700px;
     position: sticky;
     top: 40px;
 }
@@ -61,8 +61,8 @@ body{
 }
 .parent img{
     position: relative;
-    top: 4oopx;
-    left: 400px;
+    top: 4px;
+    left: 600px;
 }
 .parent_2
 {
