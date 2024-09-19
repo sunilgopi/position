@@ -5,8 +5,7 @@ body{
 
 
 header {
-    top:0;
-
+    top:0%;
     color:white;
     background-color:red;
     margin-left: 0;
@@ -14,42 +13,61 @@ header {
     position: fixed;
     width: 100vw;
     padding: 15px;
+}
 
     
-    body {
-        position:absolute;
-        position:relative;
-    }
 
-}
-
-/* div {
-
-    position: relative;
-    top: 0%;
-} */
-img  {
-    border-radius: 23px;
-    box-shadow: 8px 8px 8px 8px;
-    float: right;
-    position: sticky;
-    top: 0%;
-}
-.jan{
-    float:left;
-    position: relative;/* It define relative*/
-    left: 25px;
-    #1{
-        position: absolute;
-    }
-}
-h1 {
-    position: sticky;
-    left:23px;
-    top: 10%;
-}
-h2 {
+   .ntr_left img  {
     position: absolute;
-    top:40%;
-    color:red
+    top: 100px;
+    z-index: -1;
+   
+}
+
+.ntr_left_1 img
+{
+    position: relative;
+    top: 500px;
+    z-index: -1;
+}
+
+.ntr_left_2 img{
+    position: absolute;
+    left: 800px;
+    top: 100px;
+    z-index: -1;
+}
+.jan img{
+   
+    position: relative;
+    left: 800px;
+    top: 250px;
+
+    
+}
+.sticky
+{
+    color: white;
+    background-color: black;
+    width: 200px;
+    margin-top: 100px;
+    text-align: center;
+    margin-left: 400px;
+    position: sticky;
+    top: 40px;
+}
+body{
+    position: absolute;
+}
+.parent img{
+    position: relative;
+    top: 4oopx;
+    left: 400px;
+}
+.parent_2
+{
+    width: 300px;
+  
+    background-color: aqua;
+    position: sticky;
 }
